@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-<title>Document</title>
+<title>Employee Menu</title>
 </head>
 <body ng-app="myApp" ng-controller="UserController as ctrl">
 	<br>
