@@ -22,8 +22,8 @@ table.ItemTable {
   margin-left:20%; 
   margin-right:20%;
   text-align: center;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  margin-top:20px;
+  margin-button:30px;
   border-collapse: collapse;
 }
 table.ItemTable td, table.ItemTable th {
