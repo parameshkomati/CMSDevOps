@@ -58,10 +58,12 @@ table.ItemTable tfoot td {
 }
 		table.ItemCart {
   font-family: Tahoma, Geneva, sans-serif;
-  border: 2px solid #e8f5e9;
+  border: 2px solid #606B70;
   background-color: #FFFFFF;
   width: 60%;
   height: 30%;
+  margin-left:20%; 
+  margin-right:20%;
   text-align: center;
   border-collapse: collapse;
 }
@@ -74,21 +76,21 @@ table.ItemCart tbody td {
   color: #212121;
 }
 table.ItemCart tr:nth-child(even) {
-  background: #ECEFF1;
+  background: #fafafa;
 }
 table.ItemCart thead {
-  background: #78909C;
+  background: #bdbdbd;
   background: -moz-linear-gradient(top, #9aacb5 0%, #859ba6 66%, #78909C 100%);
   background: -webkit-linear-gradient(top, #9aacb5 0%, #859ba6 66%, #78909C 100%);
   background: linear-gradient(to bottom, #9aacb5 0%, #859ba6 66%, #78909C 100%);
-  border-bottom: 3px solid #e8f5e9;
+  border-bottom: 3px solid #606B70;
 }
 table.ItemCart thead th {
   font-size: 18px;
   font-weight: bold;
   color: #FFFFFF;
   text-align: center;
-  border-left: 2px solid #e8f5e9;
+  border-left: 2px solid #606B70;
 }
 table.ItemCart thead th:first-child {
   border-left: none;
