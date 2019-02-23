@@ -22,8 +22,6 @@ table.ItemTable {
   margin-left:20%; 
   margin-right:20%;
   text-align: center;
-  margin-top:20px;
-  margin-button:30px;
   border-collapse: collapse;
 }
 table.ItemTable td, table.ItemTable th {
@@ -120,7 +118,9 @@ background: #FFFFFF;
 width: 70%;
 height: 15%;
 margin-left:15%; 
-margin-right:15%; 
+margin-right:15%;
+margin-top:20px;
+margin-button:30px;
 }
 body#tinymce {
 background: #FFFFFF
