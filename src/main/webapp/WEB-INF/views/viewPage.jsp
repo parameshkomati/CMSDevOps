@@ -104,7 +104,7 @@ table.ItemCart tfoot td {
 	<br>
 	<br>
 	<br>
-	TODAY'S MEN
+	TODAY'S MENU
 	<table  class="ItemTable">
 		<thead>
 		<tr>
@@ -129,15 +129,21 @@ table.ItemCart tfoot td {
 		List
 
 		<table class="ItemCart">
+			<head>
 			<tr>
 				<td>NAME OF THE ITEM</td>
 				<td>QUANTITY</td>
 				<td>COST</td>
 			</tr>
+			</head>
 			<tr ng-repeat="x in foodCart">
 				<td>{{x.username}}</td>
 				<td>{{x.quantity}}</td>
 				<td>&#8377;{{x.email * x.quantity}}</td>
+			</tr>
+			<tr>
+				<td>Total Cost: </td>
+				<d>&#8377;{{totalCost()}}</td>
 			</tr>
 		</table>
 		<br>
