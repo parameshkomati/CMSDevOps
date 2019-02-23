@@ -49,8 +49,7 @@
 	</div>
 	<br>
 	<div>
-		<a hr>Proceed Checkout</a>
-	</div><a href="#" onclick="printInfo(this)">Print</a>
+	</div><a href="#" onclick="printInfo(this)">Proceed to checkout</a>
 	</div>
 
 
