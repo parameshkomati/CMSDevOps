@@ -29,10 +29,9 @@
 		</tr>
 	</table>
 	<br>
-
+<div id="print">
 	<div ng-show="vara">
 		List
-
 		<table class="table table-bordered table-condenced">
 			<tr>
 				<td>Name</td>
@@ -51,6 +50,7 @@
 	<br>
 	<div>
 		<a hr>Proceed Checkout</a>
+	</div><a href="#" onclick="printInfo(this)">Print</a>
 	</div>
 
 
