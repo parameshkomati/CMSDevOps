@@ -164,7 +164,7 @@ table.ItemCart tfoot td {
 	</div>
 	<br>
 	<div>
-		<a href="#" onclick="window.print(Cart)">Proceed to checkout</a>
+		<a href="#" onclick="window.print()">Proceed to checkout</a>
 	</div>
 
 
