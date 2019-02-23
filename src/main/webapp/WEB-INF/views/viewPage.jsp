@@ -99,7 +99,7 @@ table.ItemCart thead th:first-child {
 table.ItemCart tfoot td {
   font-size: 12px;
 }
-table.ItemTable tfoot {
+table.ItemCart tfoot {
   font-size: 14px;
   font-weight: bold;
   color: #FFFFFF;
@@ -108,7 +108,7 @@ table.ItemTable tfoot {
   background: -webkit-linear-gradient(top, #73838b 0%, #576a73 66%, #455A64 100%);
   background: linear-gradient(to bottom, #73838b 0%, #576a73 66%, #455A64 100%);
 }
-table.ItemTable tfoot td {
+table.ItemCart tfoot td {
   font-size: 14px;
 }
 </style>
@@ -143,9 +143,9 @@ table.ItemTable tfoot td {
 		<table class="ItemCart">
 			<thead>
 			<tr>
-				<td>NAME OF THE ITEM</td>
-				<td>QUANTITY</td>
-				<td>COST</td>
+			<th>NAME OF THE ITEM</th>
+			<th>QUANTITY</th>
+			<th>COST</th>
 			</tr>
 			</thead>
 			<tr ng-repeat="x in foodCart">
