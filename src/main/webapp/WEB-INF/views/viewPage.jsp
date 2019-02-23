@@ -12,21 +12,70 @@
 <title>Employee Menu</title>
 </head>
 <body ng-app="myApp" ng-controller="UserController as ctrl">
+	<style type="text/css">
+table.ItemTable {
+  font-family: Tahoma, Geneva, sans-serif;
+  border: 2px solid #606B70;
+  background-color: #FFFFFF;
+  width: 60%;
+  height: 30%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.ItemTable td, table.ItemTable th {
+  border: 1px solid #4A4A4A;
+  padding: 6px 4px;
+}
+table.ItemTable tbody td {
+  font-size: 13px;
+  color: #212121;
+}
+table.ItemTable tr:nth-child(even) {
+  background: #ECEFF1;
+}
+table.ItemTable thead {
+  background: #78909C;
+  background: -moz-linear-gradient(top, #9aacb5 0%, #859ba6 66%, #78909C 100%);
+  background: -webkit-linear-gradient(top, #9aacb5 0%, #859ba6 66%, #78909C 100%);
+  background: linear-gradient(to bottom, #9aacb5 0%, #859ba6 66%, #78909C 100%);
+  border-bottom: 3px solid #606B70;
+}
+table.ItemTable thead th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #606B70;
+}
+table.ItemTable thead th:first-child {
+  border-left: none;
+}
+
+table.ItemTable tfoot td {
+  font-size: 12px;
+}
+</style>
+	
 	<br>
 	<br>
 	<br>
-	<table  class="table table-bordered table-condenced">
+	<table  class="ItemTable">
+		<thead>
 		<tr>
-			<td>Order Name</td>
-			<td>Cost</td>
+			<th>Order Name</th>
+			<th>Cost</th>
+			<th Colspan="2">Qty</th>
 		</tr>
+		</thead>
+		<tbody>
 		<tr ng-repeat="x in ctrl.users">
 			<td>{{x.username}}</td>
 			<td>{{x.email}}</td>
 			<td><button class="btn btn-sm btn-success" ng-click="addFood(x)">Add</button></td>
 			<td><button class="btn btn-sm btn-danger" ng-click="RemoveFood(x)">Reduce</button></td>
-			<td></td>
 		</tr>
+		</tbody>
+		
 	</table>
 	<br>
 
