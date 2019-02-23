@@ -166,6 +166,9 @@ table.ItemCart tfoot td {
 	<div>
 		<a href="#" onclick="window.print()">Proceed to checkout</a>
 	</div>
+  <button ng-click="printDiv('printableArea');">Print Div</button>
+</div>
+	</div>
 
 
 </body>
