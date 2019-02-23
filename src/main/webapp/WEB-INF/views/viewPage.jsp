@@ -97,7 +97,7 @@ table.ItemTable tfoot td {
 			</tr>
 		</table>
 		<br>
-		<div>Total Cost: ₹{{totalCost()}}</div>
+		<div>Total Cost: &#8377;{{totalCost()}}</div>
 	</div>
 	<br>
 	<div>
