@@ -180,9 +180,9 @@ background: #FFFFFF
 	<br>
 	<div>
 		<button href="#" onclick="window.print()">Proceed to checkout</button>
-	</div>
-  <button ng-click="printDiv('ItemCart');">Print Div</button>
-</div>
+		<br>
+		<br>
+		<br>
 	</div>
 </div>
 
