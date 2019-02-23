@@ -165,7 +165,7 @@ table.ItemCart tfoot td {
 	</div>
 	<br>
 	<div>
-		<a href="#" onclick="window.print()">Proceed to checkout</a>
+		<button href="#" onclick="window.print()">Proceed to checkout</button>
 	</div>
   <button ng-click="printDiv('ItemCart');">Print Div</button>
 </div>
