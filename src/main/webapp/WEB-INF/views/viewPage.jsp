@@ -56,6 +56,47 @@ table.ItemTable thead th:first-child {
 table.ItemTable tfoot td {
   font-size: 12px;
 }
+		table.ItemCart {
+  font-family: Tahoma, Geneva, sans-serif;
+  border: 2px solid #e8f5e9;
+  background-color: #FFFFFF;
+  width: 60%;
+  height: 30%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.ItemCart td, table.ItemCart th {
+  border: 1px solid #4A4A4A;
+  padding: 6px 4px;
+}
+table.ItemCart tbody td {
+  font-size: 13px;
+  color: #212121;
+}
+table.ItemCart tr:nth-child(even) {
+  background: #ECEFF1;
+}
+table.ItemCart thead {
+  background: #78909C;
+  background: -moz-linear-gradient(top, #9aacb5 0%, #859ba6 66%, #78909C 100%);
+  background: -webkit-linear-gradient(top, #9aacb5 0%, #859ba6 66%, #78909C 100%);
+  background: linear-gradient(to bottom, #9aacb5 0%, #859ba6 66%, #78909C 100%);
+  border-bottom: 3px solid #e8f5e9;
+}
+table.ItemCart thead th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #e8f5e9;
+}
+table.ItemCart thead th:first-child {
+  border-left: none;
+}
+
+table.ItemCart tfoot td {
+  font-size: 12px;
+}
 </style>
 	
 	<br>
@@ -85,7 +126,7 @@ table.ItemTable tfoot td {
 	<div ng-show="vara">
 		List
 
-		<table class="table table-bordered table-condenced">
+		<table class="ItemCart">
 			<tr>
 				<td>NAME OF THE ITEM</td>
 				<td>QUANTITY</td>
