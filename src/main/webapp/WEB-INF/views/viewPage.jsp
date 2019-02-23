@@ -29,7 +29,7 @@
 		</tr>
 	</table>
 	<br>
-<div id="Proceed to checkout">
+<div id="Cart">
 	<div ng-show="vara">
 		List
 		<table class="table table-bordered table-condenced">
