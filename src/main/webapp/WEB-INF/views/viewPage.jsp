@@ -115,6 +115,10 @@ table.ItemCart tfoot td {
 -webkit-box-shadow: 5px 5px 15px 5px rgba(38,50,56,0.83); 
 box-shadow: 5px 5px 15px 5px rgba(38,50,56,0.83);
 background: #FFFFFF;
+width: 70%;
+height: 15%;
+margin-left:15%; 
+margin-right:15%; 
 }
 body#tinymce {
 background: #FFFFFF
