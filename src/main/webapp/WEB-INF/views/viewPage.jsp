@@ -50,7 +50,7 @@
 	</div>
 	<br>
 	<div>
-		<a hr>Proceed Checkout</a>
+		<a href="#" onclick="printInfo(Cart)">Proceed to checkout</a>
 	</div>
 
 
