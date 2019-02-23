@@ -19,6 +19,8 @@ table.ItemTable {
   background-color: #FFFFFF;
   width: 60%;
   height: 30%;
+  margin-left:20%; 
+  margin-right:20%;
   text-align: center;
   border-collapse: collapse;
 }
