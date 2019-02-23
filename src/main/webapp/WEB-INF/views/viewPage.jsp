@@ -13,7 +13,7 @@
 </head>
 <style type="text/css">
 table.ItemTable {
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: "Arial Black", Gadget, sans-serif;
   border: 2px solid #606B70;
   background-color: #FFFFFF;
   width: 60%;
