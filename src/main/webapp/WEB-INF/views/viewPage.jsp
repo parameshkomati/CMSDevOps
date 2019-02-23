@@ -18,10 +18,12 @@ table.ItemTable {
   border: 2px solid #606B70;
   background-color: #FFFFFF;
   width: 60%;
-  height: 30%;
+  height: 80%;
   margin-left:20%; 
   margin-right:20%;
   text-align: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
   border-collapse: collapse;
 }
 table.ItemTable td, table.ItemTable th {
