@@ -49,7 +49,7 @@
 	</div>
 	<br>
 	<div>
-	</div><a href="#" onclick="printInfo(this)">Proceed to checkout</a>
+	</div><a href="#" onclick="printInfo(Cart)">Proceed to checkout</a>
 	</div>
 
 
