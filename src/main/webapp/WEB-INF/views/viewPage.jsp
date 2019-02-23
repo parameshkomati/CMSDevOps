@@ -143,7 +143,7 @@ table.ItemCart tfoot td {
 			</tr>
 			<tr>
 				<td>Total Cost: </td>
-				<d><div>&#8377;{{totalCost()}}</div></td>
+				<td>&#8377;{{totalCost()}}</td>
 			</tr>
 		</table>
 		<br>
