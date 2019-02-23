@@ -11,49 +11,6 @@
 
 <title>Employee Menu</title>
 </head>
-<style type="text/css">
-table.ItemTable {
-  font-family: "Arial Black", Gadget, sans-serif;
-  border: 2px solid #606B70;
-  background-color: #FFFFFF;
-  width: 60%;
-  height: 30%;
-  text-align: center;
-  border-collapse: collapse;
-}
-table.ItemTable td, table.ItemTable th {
-  border: 1px solid #4A4A4A;
-  padding: 6px 4px;
-}
-table.ItemTable tbody td {
-  font-size: 13px;
-  color: #212121;
-}
-table.ItemTable tr:nth-child(even) {
-  background: #ECEFF1;
-}
-table.ItemTable thead {
-  background: #78909C;
-  background: -moz-linear-gradient(top, #9aacb5 0%, #859ba6 66%, #78909C 100%);
-  background: -webkit-linear-gradient(top, #9aacb5 0%, #859ba6 66%, #78909C 100%);
-  background: linear-gradient(to bottom, #9aacb5 0%, #859ba6 66%, #78909C 100%);
-  border-bottom: 3px solid #606B70;
-}
-table.ItemTable thead th {
-  font-size: 18px;
-  font-weight: bold;
-  color: #FFFFFF;
-  text-align: center;
-  border-left: 2px solid #606B70;
-}
-table.ItemTable thead th:first-child {
-  border-left: none;
-}
-
-table.ItemTable tfoot td {
-  font-size: 12px;
-}</style>
-
 <body ng-app="myApp" ng-controller="UserController as ctrl">
 	<br>
 	<br>
