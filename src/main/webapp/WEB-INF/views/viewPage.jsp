@@ -99,6 +99,18 @@ table.ItemCart thead th:first-child {
 table.ItemCart tfoot td {
   font-size: 12px;
 }
+table.ItemTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #455A64;
+  background: -moz-linear-gradient(top, #73838b 0%, #576a73 66%, #455A64 100%);
+  background: -webkit-linear-gradient(top, #73838b 0%, #576a73 66%, #455A64 100%);
+  background: linear-gradient(to bottom, #73838b 0%, #576a73 66%, #455A64 100%);
+}
+table.ItemTable tfoot td {
+  font-size: 14px;
+}
 </style>
 	
 	<br>
@@ -129,25 +141,26 @@ table.ItemCart tfoot td {
 		List
 
 		<table class="ItemCart">
-			<head>
+			<thead>
 			<tr>
 				<td>NAME OF THE ITEM</td>
 				<td>QUANTITY</td>
 				<td>COST</td>
 			</tr>
-			</head>
+			</thead>
 			<tr ng-repeat="x in foodCart">
 				<td>{{x.username}}</td>
 				<td>{{x.quantity}}</td>
 				<td>&#8377;{{x.email * x.quantity}}</td>
 			</tr>
+			<tfoot>
 			<tr>
-				<td>Total Cost: </td>
+				<td colspan="2">Total Cost: </td>
 				<td>&#8377;{{totalCost()}}</td>
 			</tr>
+			</tfooot>
 		</table>
 		<br>
-		<div>Total Cost: &#8377;{{totalCost()}}</div>
 	</div>
 	<br>
 	<div>
