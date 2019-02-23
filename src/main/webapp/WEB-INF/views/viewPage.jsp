@@ -72,7 +72,7 @@ table.ItemTable tfoot td {
 		<tbody>
 		<tr ng-repeat="x in ctrl.users">
 			<td>{{x.username}}</td>
-			<td>₹{{x.email}}</td>
+			<td>&#8377;{{x.email}}</td>
 			<td><button class="btn btn-sm btn-success" ng-click="addFood(x)">Add</button></td>
 			<td><button class="btn btn-sm btn-danger" ng-click="RemoveFood(x)">Reduce</button></td>
 		</tr>
@@ -93,7 +93,7 @@ table.ItemTable tfoot td {
 			<tr ng-repeat="x in foodCart">
 				<td>{{x.username}}</td>
 				<td>{{x.quantity}}</td>
-				<td>{{x.email * x.quantity}}</td>
+				<td>&#8377;{{x.email * x.quantity}}</td>
 			</tr>
 		</table>
 		<br>
