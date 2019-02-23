@@ -16,7 +16,7 @@ table.ItemTable {
   font-family: "Arial Black", Gadget, sans-serif;
   border: 2px solid #606B70;
   background-color: #FFFFFF;
-  width: 100%;
+  width: 60%;
   height: 200px;
   text-align: center;
   border-collapse: collapse;
