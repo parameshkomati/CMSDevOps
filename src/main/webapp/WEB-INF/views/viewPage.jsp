@@ -15,18 +15,22 @@
 	<br>
 	<br>
 	<br>
-	<table  class="table table-bordered table-condenced">
+	<table  class="ItemTable">
+		<thead>
 		<tr>
-			<td>Order Name</td>
-			<td>Cost</td>
+			<th>Order Name</th>
+			<th>Cost</th>
+			<th colspan="2">Qty</th>
 		</tr>
+			</thead>
+		<tbody>	
 		<tr ng-repeat="x in ctrl.users">
 			<td>{{x.username}}</td>
 			<td>{{x.email}}</td>
 			<td><button class="btn btn-sm btn-success" ng-click="addFood(x)">Add</button></td>
 			<td><button class="btn btn-sm btn-danger" ng-click="RemoveFood(x)">Reduce</button></td>
-			<td></td>
 		</tr>
+		</tbody>
 	</table>
 	<br>
 <div id="Cart">
