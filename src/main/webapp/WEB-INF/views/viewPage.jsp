@@ -61,12 +61,13 @@ table.ItemTable tfoot td {
 	<br>
 	<br>
 	<br>
+	TODAY'S MEN
 	<table  class="ItemTable">
 		<thead>
 		<tr>
-			<th>Order Name</th>
-			<th>Cost</th>
-			<th Colspan="2">Qty</th>
+			<th>NAME OF THE ITEM</th>
+			<th>COST</th>
+			<th Colspan="2">QUANTITY</th>
 		</tr>
 		</thead>
 		<tbody>
@@ -86,9 +87,9 @@ table.ItemTable tfoot td {
 
 		<table class="table table-bordered table-condenced">
 			<tr>
-				<td>Name</td>
-				<td>Quantity</td>
-				<td>Cost</td>
+				<td>NAME OF THE ITEM</td>
+				<td>QUANTITY</td>
+				<td>COST</td>
 			</tr>
 			<tr ng-repeat="x in foodCart">
 				<td>{{x.username}}</td>
