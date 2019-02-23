@@ -13,19 +13,17 @@
 </head>
 <style type="text/css">
 table.ItemTable {
-  font-family: "Tahoma", Gadget, sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;
   border: 2px solid #606B70;
   background-color: #FFFFFF;
   width: 60%;
-  height: 200px;
-  margin-left:20%; 
-  margin-right:20%;
+  height: 30%;
   text-align: center;
   border-collapse: collapse;
 }
 table.ItemTable td, table.ItemTable th {
   border: 1px solid #4A4A4A;
-  padding: 3px 2px;
+  padding: 6px 4px;
 }
 table.ItemTable tbody td {
   font-size: 13px;
@@ -54,9 +52,8 @@ table.ItemTable thead th:first-child {
 
 table.ItemTable tfoot td {
   font-size: 12px;
-}
+}</style>
 
-</style>
 <body ng-app="myApp" ng-controller="UserController as ctrl">
 	<br>
 	<br>
