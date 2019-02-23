@@ -103,7 +103,7 @@ table.ItemCart tfoot {
   font-size: 14px;
   font-weight: bold;
   color: #FFFFFF;
-  background: #455A64;
+  background: #00675b;
   background: -moz-linear-gradient(top, #73838b 0%, #576a73 66%, #455A64 100%);
   background: -webkit-linear-gradient(top, #73838b 0%, #576a73 66%, #455A64 100%);
   background: linear-gradient(to bottom, #73838b 0%, #576a73 66%, #455A64 100%);
@@ -111,8 +111,16 @@ table.ItemCart tfoot {
 table.ItemCart tfoot td {
   font-size: 14px;
 }
+#Box {
+-webkit-box-shadow: 5px 5px 15px 5px rgba(38,50,56,0.83); 
+box-shadow: 5px 5px 15px 5px rgba(38,50,56,0.83);
+background: #FFFFFF;
+}
+body#tinymce {
+background: #FFFFFF
+}
 </style>
-	
+<div id="Box">
 	<br>
 	<br>
 	<br>
@@ -170,6 +178,7 @@ table.ItemCart tfoot td {
   <button ng-click="printDiv('ItemCart');">Print Div</button>
 </div>
 	</div>
+</div>
 
 </body>
 <script
