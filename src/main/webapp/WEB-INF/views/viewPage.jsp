@@ -136,7 +136,7 @@ table.ItemCart tfoot td {
 		
 	</table>
 	<br>
-
+	<div id="ItemCart">
 	<div ng-show="vara">
 		List
 
@@ -162,11 +162,12 @@ table.ItemCart tfoot td {
 		</table>
 		<br>
 	</div>
+	</div>
 	<br>
 	<div>
 		<a href="#" onclick="window.print()">Proceed to checkout</a>
 	</div>
-  <button ng-click="printDiv('printableArea');">Print Div</button>
+  <button ng-click="printDiv('ItemCart');">Print Div</button>
 </div>
 	</div>
 
