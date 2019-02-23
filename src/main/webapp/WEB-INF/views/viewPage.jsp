@@ -29,7 +29,6 @@ table.ItemTable td, table.ItemTable th {
 }
 table.ItemTable tbody td {
   font-size: 13px;
-  font-weight: normal;
   color: #212121;
 }
 table.ItemTable tr:nth-child(even) {
