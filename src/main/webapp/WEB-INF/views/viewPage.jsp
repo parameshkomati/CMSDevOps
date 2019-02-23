@@ -15,27 +15,24 @@
 	<br>
 	<br>
 	<br>
-	<table  class="ItemTable">
-		<thead>
+	<table  class="table table-bordered table-condenced">
 		<tr>
-			<th>Order Name</th>
-			<th>Cost</th>
-			<th colspan="2">Qty</th>
+			<td>Order Name</td>
+			<td>Cost</td>
 		</tr>
-			</thead>
-		<tbody>	
 		<tr ng-repeat="x in ctrl.users">
 			<td>{{x.username}}</td>
 			<td>{{x.email}}</td>
 			<td><button class="btn btn-sm btn-success" ng-click="addFood(x)">Add</button></td>
 			<td><button class="btn btn-sm btn-danger" ng-click="RemoveFood(x)">Reduce</button></td>
+			<td></td>
 		</tr>
-		</tbody>
 	</table>
 	<br>
-<div id="Cart">
+
 	<div ng-show="vara">
 		List
+
 		<table class="table table-bordered table-condenced">
 			<tr>
 				<td>Name</td>
@@ -53,7 +50,7 @@
 	</div>
 	<br>
 	<div>
-	</div><a href="#" onclick="window.print(Cart)">Proceed to checkout</a>
+		<a hr>Proceed Checkout</a>
 	</div>
 
 
