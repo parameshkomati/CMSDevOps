@@ -178,7 +178,7 @@ background: #FFFFFF
 	</div>
 	</div>
 	<br>
-	<div class="form-actions floatRight">
+	<div>
 		<button href="#" onclick="window.print()">Proceed to checkout</button>
 		<br>
 		<br>
