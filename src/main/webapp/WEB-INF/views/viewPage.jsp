@@ -11,7 +11,6 @@
 
 <title>Employee Menu</title>
 </head>
-<a href="./viewPage"  style="float: right;" class="btn btn-md btn-success">User Page</a>
 <body ng-app="myApp" ng-controller="UserController as ctrl">
 	<style type="text/css">
 table.ItemTable {
