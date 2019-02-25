@@ -126,8 +126,8 @@ body#tinymce {
 background: #FFFFFF
 }
 		
-#PrintBUtton {
-margin-left:20%;
+#PrintButton {
+margin-right:20%;
 		}
 </style>
 <div id="Box">
@@ -179,10 +179,12 @@ margin-left:20%;
 			</tfooot>
 		</table>
 		<br>
+		<div id="PrintButton">
 		<p align="right">
 		<button href="#" onclick="window.print()">Proceed to checkout</button>
 	</p>
 	</div>
+		</div>
 	</div>
 	<br>
 	
