@@ -87,7 +87,7 @@
                       <thead>
                           <tr>
                               <th>S.No.</th>
-                              <th>Iteam Name</th>
+                              <th>Item Name</th>
                               <th>Item type</th>
                               <th>Price</th>
                               <th width="20%"></th>
