@@ -129,6 +129,17 @@ background: #FFFFFF
 #PrintButton {
 margin-right:20%;
 		}
+@media print {
+
+* {
+    visibility: hidden;
+  }
+
+  #ItemCart* {
+    visibility: visible;
+  }
+}
+		
 </style>
 <div id="Box">
 	
@@ -179,12 +190,12 @@ margin-right:20%;
 			</tfooot>
 		</table>
 		<br>
-		<div id="PrintButton">
+		</div>
+	</div>
+	<div id="PrintButton">
 		<p align="right">
 		<button href="#" onclick="window.print()">Proceed to checkout</button>
 	</p>
-	</div>
-		</div>
 	</div>
 	<br>
 	
