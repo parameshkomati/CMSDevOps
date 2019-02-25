@@ -135,7 +135,7 @@ margin-right:20%;
     visibility: hidden;
   }
 
-  #ItemCart* {
+  #ItemCart {
     visibility: visible;
   }
 }
