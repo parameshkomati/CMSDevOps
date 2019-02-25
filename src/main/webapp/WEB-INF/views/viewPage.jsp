@@ -142,12 +142,11 @@ margin-right:20%;
 		
 </style>
 <div id="Box">
-	
+	<div id="ItemTabled">
 	<br>
 	<h1 style="text-align: center;"><span style="color: #339966;">CIM BILLING INTERFACE</span></h1>
 	<br>
 	<br>
-	<div id="ItemTabled">
 	<table  class="ItemTable">
 		<thead>
 		<tr>
