@@ -131,10 +131,11 @@ margin-left:20%;
 		}
 </style>
 <div id="Box">
-	<br>
-	<br>
+	
 	<br>
 	<h1 style="text-align: center;"><span style="color: #339966;">CIM BILLING INTERFACE</span></h1>
+	<br>
+	<br>
 	<table  class="ItemTable">
 		<thead>
 		<tr>
@@ -178,15 +179,17 @@ margin-left:20%;
 			</tfooot>
 		</table>
 		<br>
+		<p align="right">
+		<button href="#" onclick="window.print()">Proceed to checkout</button>
+	</p>
 	</div>
 	</div>
 	<br>
-	<div id="PrintButton">
-		<button href="#" onclick="window.print()">Proceed to checkout</button>
+	
+		
 		<br>
 		<br>
 		<br>
-	</div>
 </div>
 
 </body>
