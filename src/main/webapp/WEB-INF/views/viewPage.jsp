@@ -125,12 +125,16 @@ margin-button:30px;
 body#tinymce {
 background: #FFFFFF
 }
+		
+#PrintBUtton {
+margin-left:20%;
+		}
 </style>
 <div id="Box">
 	<br>
 	<br>
 	<br>
-	TODAY'S MENU
+	<h1 style="text-align: center;"><span style="color: #339966;">CIM BILLING INTERFACE</span></h1>
 	<table  class="ItemTable">
 		<thead>
 		<tr>
@@ -152,8 +156,7 @@ background: #FFFFFF
 	<br>
 	<div id="ItemCart">
 	<div ng-show="vara">
-		List
-
+		<h2 style="text-align: center;"><span style="color: #339966;">ITEM CART</span></h2>
 		<table class="ItemCart">
 			<thead>
 			<tr>
@@ -178,7 +181,7 @@ background: #FFFFFF
 	</div>
 	</div>
 	<br>
-	<div>
+	<div id="PrintButton">
 		<button href="#" onclick="window.print()">Proceed to checkout</button>
 		<br>
 		<br>
