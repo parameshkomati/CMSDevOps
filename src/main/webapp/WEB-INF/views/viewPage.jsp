@@ -131,7 +131,7 @@ margin-right:20%;
 		}
 @media print {
 
-#ItemTabled {
+#ItemTabled,#PrintButton {
     visibility: hidden;
   }
 
@@ -201,8 +201,7 @@ margin-right:20%;
 		</p>
 	</div>
 	<br>
-	
-		
+
 		<br>
 		<br>
 		<br>
