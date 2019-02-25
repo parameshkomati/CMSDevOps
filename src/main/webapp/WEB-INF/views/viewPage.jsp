@@ -131,7 +131,7 @@ margin-right:20%;
 		}
 @media print {
 
-* {
+#ItemTabled {
     visibility: hidden;
   }
 
@@ -147,6 +147,7 @@ margin-right:20%;
 	<h1 style="text-align: center;"><span style="color: #339966;">CIM BILLING INTERFACE</span></h1>
 	<br>
 	<br>
+	<div id="ItemTabled">
 	<table  class="ItemTable">
 		<thead>
 		<tr>
@@ -166,6 +167,7 @@ margin-right:20%;
 		
 	</table>
 	<br>
+	</div>
 	<div id="ItemCart">
 	<div ng-show="vara">
 		<h2 style="text-align: center;"><span style="color: #339966;">ITEM CART</span></h2>
