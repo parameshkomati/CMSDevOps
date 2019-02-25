@@ -139,12 +139,17 @@ margin-right:20%;
     visibility: visible;
   }
 }
+		#IndexButton {
+		margin-right:2px;	
+		}
 		
 </style>
 <div id="Box">
 	<div id="ItemTabled">
 	<br>
+	<div id="IndexButton">
 	<a href="./indexPage"  style="float: right;" class="btn btn-md btn-success">Admin Page</a>
+		</div>
 	<h1 style="text-align: center;"><span style="color: #339966;">CIM BILLING INTERFACE</span></h1>
 	<br>
 	<br>
