@@ -197,7 +197,9 @@ margin-right:20%;
 	<div id="PrintButton">
 		<p align="right">
 		<button href="#" onclick="window.print()">Proceed to checkout</button>
-	</p>
+		<br>
+		<button value="Clear Cart" onClick="window.location.reload()">
+		</p>
 	</div>
 	<br>
 	
