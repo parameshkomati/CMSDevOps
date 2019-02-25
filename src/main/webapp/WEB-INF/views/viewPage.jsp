@@ -140,7 +140,7 @@ margin-right:20%;
   }
 }
 		#IndexButton {
-		margin-right:2px;	
+		margin-right:10px;	
 		}
 		
 </style>
