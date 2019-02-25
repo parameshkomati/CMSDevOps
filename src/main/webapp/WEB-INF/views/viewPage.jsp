@@ -137,6 +137,10 @@ margin-right:20%;
 
   #ItemCart {
     visibility: visible;
+    margin-left:15%; 
+margin-right:15%;
+margin-top:20px;
+margin-button:30px;
   }
 }
 		
